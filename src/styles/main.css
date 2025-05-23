@@ -1,0 +1,48 @@
+body {
+    font-family: Arial, sans-serif;
+    color: #39ff14; /* Neon green */
+    margin: 0;
+    padding: 0;
+    background-color: #000000;
+}
+
+header {
+    background: #35424a;
+    color: #ffffff; /* White text in header */
+    padding: 20px 0;
+    text-align: center;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: #ffffff; /* Headings in white */
+}
+
+nav a {
+    color: #39ff14; /* Neon green links */
+    text-decoration: none;
+    margin: 0 15px;
+}
+
+nav a:hover {
+    text-decoration: underline;
+    color: #ffffff; /* White on hover */
+}
+
+section {
+    padding: 20px;
+    margin: 20px;
+    background: #1a1a1a; /* Slightly lighter black for contrast */
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    color: #39ff14; /* Neon green text in sections */
+}
+
+footer {
+    text-align: center;
+    padding: 10px 0;
+    background: #35424a;
+    color: #ffffff;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
